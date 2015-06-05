@@ -39,7 +39,7 @@ p{
     background-color: #FFEBA0;
     cursor: pointer;
 }
-.vin:active{
+.vin:focus{
     background-color: #FFEBA0;
     outline: none;
 }
@@ -58,7 +58,7 @@ p{
     background-color: #FFEBA0;
     cursor: pointer;
 }
-.gos:active{
+.gos:focus{
     background-color: #FFEBA0;
     outline: none;
 }
