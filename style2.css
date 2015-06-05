@@ -1,0 +1,77 @@
+body{
+    font-family: Arial;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+h1{
+    font-size: 21px;
+    font-weight: 300;
+    margin-bottom: 4px;
+}
+p{
+    font-size: 12px;
+    margin-top: 4px;
+    padding-bottom: 24px;
+    border-bottom: solid 1px #ececec;
+    line-height: 16px;
+}
+.block {
+    width: 698px;
+    height: 145px;
+    margin: 11px 10px 10px 4px;
+    padding: 7px 20px 20px 20px;
+    border: solid 1px #d8d8d8;
+}
+.vin{
+    display: block;
+    float: left;
+    width: 65px;
+    height: 32px;
+    margin-right: 0px;
+    margin-top: 7px;
+    font-family: Arial;
+    font-size: 14px;
+    border-radius: 3px 0 0 3px;
+    background-color: #ffffff;
+    border: solid #cbcbcb;
+    border-width: 1px 0 1px 1px;
+}
+.gos{
+    width: 105px;
+    height: 32px;
+    margin-left: 0px;
+    margin-top: 7px;
+    font-family: Arial;
+    font-size: 14px;
+    border-radius: 0 3px 3px 0;
+    background-color: #ffffff;
+    border: solid 1px #cbcbcb;
+}
+.vin_input{
+    margin-left: 20px;
+    height: 27px;
+    width: 190px;
+    font-family: Arial;
+    font-size: 14px;
+    border: solid 1px #cbcbcb;
+    padding-left: 10px;
+}
+.sts{
+    height: 27px;
+    width: 135px;
+    margin-left: 17px;
+    padding-left: 10px;
+    font-family: Arial;
+    font-size: 14px;
+    border: solid 1px #cbcbcb;
+}
+.check{
+    height: 32px;
+    width: 100px;
+    margin-left: 20px;
+    font-family: Arial;
+    font-size: 14px;
+    border: solid 0px;
+    border-radius: 2px;
+    background-color: #eaeaea;
+    color: #b0aab0;
+}
