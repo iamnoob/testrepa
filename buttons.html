@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head lang="ru-RU">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style2.css"/>
+    <title>История авто</title>
+</head>
+<body>
+<style>
+    body{
+        margin:0;
+        padding: 0;
+    }
+    .block{
+        border:solid 1px #444;
+        margin: 5% auto;
+        text-align: center;
+    }
+    .block button.active{
+        color: red;
+    }
+    .block button{
+        padding: 5px 10px;
+        font-size: 20px;
+        color: #fff;
+        border: none;
+        display: block;
+        float: left;
+        cursor: pointer;
+        background: rgb(30,87,153); /* Old browsers */
+        background: -moz-linear-gradient(top, rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(30,87,153,1)), color-stop(50%,rgba(41,137,216,1)), color-stop(51%,rgba(32,124,202,1)), color-stop(100%,rgba(125,185,232,1))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* IE10+ */
+        background: linear-gradient(to bottom, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+    }
+</style>
+<div class="block">
+    <button>One</button>
+    <button class="active">Two</button>
+    <button>Three</button>
+    <button>Four</button>
+</div>
+</body>
+</html>
